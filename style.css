@@ -1,39 +1,42 @@
-body{
-    background: midnightblue;
-    color: mintcream;
+body {
+    background-size: cover;
+    background-position: center;
 }
-
-.heading{
-    width: 80%;
-    font-size: 25px ;
-}
-
-.listoffaces{
-    font-size: 20px;
-}
-
-#camera{
-    width: 360px;
-    height: 300px;
-    border: 2px dashed powderblue;
-}
-
-#Button{
-    background-color:turquoise;
-    color:blue;
-}
-
-#Button1{
-    color: yellow;
-}
-
-#Result{
-    border:2px solid tomato;
-    height: 300px;
-    width: 360px;
-}
-
-#Face_Name,#Face_Accuracy{
+.heading {
     font-size: 25px;
-    color: orchid;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px white;
+}
+.heading_div1 {
+    float: none;
+    background-color: aqua;
+    color: purple;
+    padding: 10px;
+    border-radius: 10px;
+}
+.heading_div2 {
+    font-size: 18px;
+    font-style: italic;
+}
+.result_para {
+    margin-top: 15px;
+    font-size: 19px;
+    background-color: rgb(204, 60, 60);
+}
+#footer_name_div {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(31, 134, 36);
+    font-size: 20px;
+    color: rgb(245, 244, 187);
+    height: 50px;
+    padding: 10px;
+
+}
+canvas {
+    border: 2px black solid;
+    margin-top: 120px;
 }
